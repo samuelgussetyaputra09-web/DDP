@@ -14,7 +14,7 @@ print(is_genap(7))
 
 
 def nilai(score):
-    
+    """Mengembalikan 'lulus' jika score >= 75, selainnya 'gagal'."""
     return "lulus" if score >= 75 else "gagal"
 
 print(nilai(80))  
